@@ -1,0 +1,22 @@
+# Framework principal
+Django>=4.2,<5.0
+
+# API REST
+djangorestframework>=3.14.0
+
+# Autenticación JWT
+djangorestframework-simplejwt>=5.3.0
+
+# Manejo de CORS (para que el frontend en React pueda consumir la API)
+django-cors-headers>=4.2.0
+
+# PostgreSQL driver
+psycopg2-binary>=2.9.9
+
+# Variables de entorno (.env)
+python-dotenv>=1.0.1
+
+# Servidor de producción (cuando uses Docker o despliegues)
+gunicorn>=21.2.0
+
+whitenoise>=6.4.0
