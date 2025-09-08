@@ -1,0 +1,25 @@
+# Entorno virtual del backend
+backend/.venv/
+backend/venv/
+
+# Node
+frontend/node_modules/
+
+# Env
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Logs and python cache
+*.log
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
