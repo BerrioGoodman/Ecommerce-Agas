@@ -61,7 +61,7 @@ docker-compose.yml (contenedores)
 ---
 ### 5. Acceder a la aplicación
 
-[Sitio principal]: http://localhost:8000
+-[Sitio principal](http://localhost:8000)
 
-[Panel de administración]: http://localhost:8000/admin
+-[Panel de administración](http://localhost:8000/admin)
 
