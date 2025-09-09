@@ -14,9 +14,8 @@ Este es el backend del proyecto, construido con **Django** y configurado para fu
 Crea y activa un entorno virtual:
 
 ### bash
-python -m venv venv
-source venv/bin/activate   # En Linux/Mac
-venv\Scripts\activate      # En Windows
+    python -m venv venv
+    venv\Scripts\activate.bat
 
 ## Instala las dependencias desde requirements.txt:
 
