@@ -8,60 +8,65 @@ Este es el backend del proyecto, construido con **Django** y configurado para fu
 
 ## 1. Clona el repositorio y entra a la carpeta del backend:
 
-**bash**
+### bash
    cd backend
+   
 Crea y activa un entorno virtual:
 
-**bash**
+### bash
 python -m venv venv
 source venv/bin/activate   # En Linux/Mac
 venv\Scripts\activate      # En Windows
-Instala las dependencias desde requirements.txt:
 
-**bash**
-pip install -r requirements.txt
+## Instala las dependencias desde requirements.txt:
+
+### bash
+    pip install -r requirements.txt
+
 Configura la base de datos en settings.py:
-
 Por defecto se usa SQLite en desarrollo local.
 
 En producción (con Docker) se usa PostgreSQL.
 
-⚙️ Migraciones y base de datos
-Ejecuta las migraciones para crear las tablas:
+## ⚙️ Migraciones y base de datos
 
-**bash**
-python manage.py migrate
+Ejecuta las migraciones para crear las tablas:
+### bash
+    python manage.py migrate
 
 ## Si quieres crear un superusuario para acceder al admin de Django:
 
-**bash**
-python manage.py createsuperuser
-▶️ Levantar el servidor
+### bash
+    python manage.py createsuperuser
+
+## ▶️ Levantar el servidor
+
 Inicia el servidor de desarrollo:
 
-**bash**
-python manage.py runserver
+### bash
+    python manage.py runserver
 Por defecto se abre en:
-
 http://127.0.0.1:8000/
-🛠️ Comandos útiles de Django
+
+## 🛠️ Comandos útiles de Django
 ## Crear nuevas migraciones tras modificar modelos:
 
-**bash**
+### bash
     python manage.py makemigrations
-    Aplicar migraciones:
 
-**bash**
+## Aplicar migraciones:
+### bash
     python manage.py migrate
-    Crear una nueva app:
 
-**bash**
+## Crear una nueva app:
+
+### bash
     python manage.py startapp nombre_app
 
 ---
 ## Recopilar archivos estáticos:
 
-**bash**
+### bash
     python manage.py collectstatic --noinput
 
 ## 📌 Notas para desarrollo
