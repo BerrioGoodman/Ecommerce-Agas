@@ -9,18 +9,14 @@ Este es un proyecto **fullstack** con:
 
 ## 🚀 Estructura del proyecto
 
-Blume/
-│── backend/ # Código del backend (Django)
-│ ├── core/ # Configuración principal de Django
-│ ├── requirements.txt
-│ ├── Dockerfile
-│ └── entrypoint.sh
-│
-│── frontend/ # Código del frontend (React)
-│
-│── docker-compose.yml # Orquestación de contenedores (web + db)
-│── .env.example # Variables de entorno de ejemplo
-│── README.md
+### Backend/
+        core/ (configuración principal de Django)
+        requirements.txt
+        Dockerfile
+        entrypoint.sh
+
+docker-compose.yml (contenedores)
+.env.example    (variables de entorno de ejemplo)
 
 ---
 
