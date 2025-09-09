@@ -7,6 +7,10 @@ Este es un proyecto **fullstack** con:
 
 ---
 
+## 📌 Documentación
+[Guía del git flow](./README_GITFLOW.md) 
+[Guía del backend](./backend/README.md)
+
 ## 🚀 Estructura del proyecto
 
 ### Backend/
