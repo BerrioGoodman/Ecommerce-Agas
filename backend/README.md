@@ -6,7 +6,7 @@ Este es el backend del proyecto, construido con **Django** y configurado para fu
 
 ## 📦 Instalación local (sin Docker)
 
-### 1. Clona el repositorio y entra a la carpeta del backend:
+## 1. Clona el repositorio y entra a la carpeta del backend:
 
 **bash**
    cd backend
@@ -32,7 +32,7 @@ Ejecuta las migraciones para crear las tablas:
 **bash**
 python manage.py migrate
 
-### Si quieres crear un superusuario para acceder al admin de Django:
+## Si quieres crear un superusuario para acceder al admin de Django:
 
 **bash**
 python manage.py createsuperuser
@@ -45,23 +45,24 @@ Por defecto se abre en:
 
 http://127.0.0.1:8000/
 🛠️ Comandos útiles de Django
-### Crear nuevas migraciones tras modificar modelos:
+## Crear nuevas migraciones tras modificar modelos:
 
 **bash**
-python manage.py makemigrations
-Aplicar migraciones:
+    python manage.py makemigrations
+    Aplicar migraciones:
 
 **bash**
-python manage.py migrate
-Crear una nueva app:
+    python manage.py migrate
+    Crear una nueva app:
 
 **bash**
-python manage.py startapp nombre_app
+    python manage.py startapp nombre_app
 
-### Recopilar archivos estáticos:
+---
+## Recopilar archivos estáticos:
 
 **bash**
-python manage.py collectstatic --noinput
+    python manage.py collectstatic --noinput
 
 ## 📌 Notas para desarrollo
 El archivo db.sqlite3 puede eliminarse si trabajas únicamente con Docker/PostgreSQL.
